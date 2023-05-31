@@ -30,6 +30,7 @@
 		"laravel/sanctum": "^v3.2",
 		"laravel/tinker": "^2.7",
 		"opcodesio/log-viewer": "^v1.5.3",
+		"rabol/filament-logviewer": "^0.15.0",
 		"spatie/laravel-data": "^2.0.9",
 		"spatie/laravel-ignition": "^2.0",
 		"spatie/once": "^3.1"
