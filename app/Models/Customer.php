@@ -13,7 +13,10 @@ class Customer extends Model
      * The attributes that are mass assignable
      */
     protected $fillable = [
-        //
+        'name',
+        'surname',
+        'email',
+        'status'
     ];
 
     /**
@@ -22,6 +25,6 @@ class Customer extends Model
      * @var array
      */
     protected $casts = [
-        //
+        'status' => 'boolean'
     ];
 }
