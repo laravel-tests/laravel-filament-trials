@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e64cec57ff205037a16f4e47d60e844d",
+    "content-hash": "84b26b1d0d525483f96829cf5575ad08",
     "packages": [
         {
             "name": "3x1io/filament-user",
@@ -776,6 +776,61 @@
                 "source": "https://github.com/DASPRiD/Enum/tree/1.0.4"
             },
             "time": "2023-03-01T18:44:03+00:00"
+        },
+        {
+            "name": "devaslanphp/filament-avatar",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devaslanphp/filament-avatar.git",
+                "reference": "36f1151f48e6938bc16dc3ece03e3ec153a88806"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devaslanphp/filament-avatar/zipball/36f1151f48e6938bc16dc3ece03e3ec153a88806",
+                "reference": "36f1151f48e6938bc16dc3ece03e3ec153a88806",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0",
+                "spatie/laravel-package-tools": "^1.9"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Devaslanphp\\FilamentAvatar\\FilamentAvatarProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Devaslanphp\\FilamentAvatar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "EL OUFIR Hatim",
+                    "email": "eloufirhatim@gmail.com"
+                }
+            ],
+            "description": "A complete and customizable User Avatar provider for your Filament project, and also for any project using a User Model.",
+            "homepage": "https://github.com/devaslanphp/filament-avatar",
+            "keywords": [
+                "avatar",
+                "filament",
+                "provider",
+                "user"
+            ],
+            "support": {
+                "issues": "https://github.com/devaslanphp/filament-avatar/issues",
+                "source": "https://github.com/devaslanphp/filament-avatar/tree/1.0.0"
+            },
+            "time": "2022-09-20T13:56:28+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -9301,6 +9356,52 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "wiebenieuwenhuis/filament-char-counter",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sweebee/filament-char-counter.git",
+                "reference": "ed44942a2eabfc7bc0daa70fba541d6b94296807"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sweebee/filament-char-counter/zipball/ed44942a2eabfc7bc0daa70fba541d6b94296807",
+                "reference": "ed44942a2eabfc7bc0daa70fba541d6b94296807",
+                "shasum": ""
+            },
+            "require": {
+                "filament/forms": "^2.9",
+                "php": "^8.0",
+                "spatie/laravel-package-tools": "^1.10"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wiebenieuwenhuis\\FilamentCharCounter\\FilamentCharCounterProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wiebenieuwenhuis\\FilamentCharCounter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Wiebe Nieuwenhuis",
+                    "email": "wiebenieuwenhuis@gmail.com"
+                }
+            ],
+            "description": "Count the amount of characters in a field",
+            "support": {
+                "issues": "https://github.com/sweebee/filament-char-counter/issues",
+                "source": "https://github.com/sweebee/filament-char-counter/tree/1.1.1"
+            },
+            "time": "2023-04-17T20:16:20+00:00"
         }
     ],
     "packages-dev": [
@@ -13728,5 +13829,5 @@
         "php": "^8.1.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
